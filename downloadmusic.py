@@ -1,5 +1,6 @@
 # -*- coding:utf-8 -*-  
-  
+
+// 通过网易云搜索 百度下载
 import urllib  
 import os
 import json  
@@ -7,7 +8,7 @@ import sys
 import time  
 reload(sys)  
 sys.setdefaultencoding('gb18030')  
-  
+
 def getURL_of_music(json_url):  
     url = json_url  
     response = urllib.urlopen(url)  
