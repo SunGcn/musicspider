@@ -29,6 +29,7 @@ def get_data(url):
   dataList["imgUrl"] = soup.find_all('img')[1]['src']
   return dataList
  
+//
 if __name__=='__main__':
   pool = Pool(4)
   dataList = []

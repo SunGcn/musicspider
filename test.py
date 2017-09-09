@@ -2,7 +2,6 @@ import requests
 from PIL import Image
 from bs4 import BeautifulSoup
 
-//
 url1 = 'http://my.hlju.edu.cn/captchaGenerate.portal?'
 url2 = 'http://my.hlju.edu.cn/userPasswordValidate.portal'
 url3 = 'http://my.hlju.edu.cn/index.portal'

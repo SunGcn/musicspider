@@ -9,8 +9,6 @@ import time
 reload(sys)  
 sys.setdefaultencoding('gb18030')  
 
-
-//
 def getURL_of_music(json_url):  
     url = json_url  
     response = urllib.urlopen(url)  
